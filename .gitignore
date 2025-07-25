@@ -1,0 +1,88 @@
+
+
+# Dependencies and Package Manager Files
+**/node_modules/
+.pnpm-store/
+.pnpm-debug.log*
+.pnp/
+.pnp.*
+.yarn/
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+.yarn/install-state.gz
+
+# Lock Files
+package-lock.json
+yarn.lock
+# pnpm-lock.yaml
+
+# Build Directories
+# Next.js
+**/.next/
+**/out/
+
+# NestJS / TypeScript
+**/dist/
+*.tsbuildinfo
+next-env.d.ts
+
+# Production
+**/build/
+
+# Build Tools / Cache
+.turbo/
+
+# Environment Files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.staging.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Tests and Coverage
+/coverage/
+.nyc_output/
+*.lcov
+.eslintcache
+
+# Misc (macOS, Windows, IDEs)
+.DS_Store
+Thumbs.db
+.idea/
+*.iml
+.editorconfig
+.project
+.classpath
+.settings/
+
+# IDE Configuration
+.vscode/
+
+# Temporary Files
+*.tmp
+*.swp
+
+# Storybook
+.storybook/out
+
+# Docker
+Dockerfile.bak
+.dockerignore
+
+# Vercel
+.vercel/
+
+# Security / Key Files
+*.crt
+*.key
+*.pem
