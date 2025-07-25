@@ -17,5 +17,7 @@
     "noImplicitAny": false,
     "strictBindCallApply": false,
     "noFallthroughCasesInSwitch": false
-  }
+  },
+  "include": ["**/*.ts", "test/**/*.ts", "eslint.config.mjs"],
+  "exclude": ["node_modules", "dist"]
 }

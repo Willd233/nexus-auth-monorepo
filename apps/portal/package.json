@@ -2,6 +2,10 @@
   "name": "portal",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "Wuilliams",
+    "email": "emiliod255@gmail.com"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -18,6 +22,9 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "sass": "^1.89.2",
-    "typescript": "^5"
+    "typescript": "^5",
+    "@nexus/eslint-config-custom": "workspace:*",
+    "typescript-eslint": "^8.38.0",
+    "eslint": "^9.7.0"
   }
 }
