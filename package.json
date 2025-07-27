@@ -10,7 +10,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev:portal": "pnpm --filter portal dev",
-    "dev:api": "pnpm --filter api start:dev",
+    "dev:api": "pnpm --filter api dev",
     "build:portal": "pnpm --filter apps/portal build",
     "build:api": "pnpm --filter apps/api build",
     "start:portal": "pnpm --filter apps/portal start",
